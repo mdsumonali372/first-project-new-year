@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* header css start */
+.header-bg {
+  background: url("../images/header-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+  margin-top: 50px;
+  border-radius: 32px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* header css end */
+
+/* new year start */
+.year-section {
+  padding: 100px 0 80px 0;
+}
+
+.year-content {
+  text-align: center;
+}
+
+.year-content h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  color: #ff0000;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.year-content h4,
+.coming-soon-left-column h4,
+.right-column h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  margin-bottom: 24px;
+}
+
+.year-content h3,
+.coming-soon-left-column h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.year-img {
+  width: 50%;
+  margin: 40px auto;
+}
+
+/* new year end */
+.coming-soon {
+  padding: 100px 0;
+}
+.coming-soon-left-column p,
+.right-column p {
+  font-family: "Inter", sans-serif;
+  color: #866f6f;
+  font-size: 20px;
+  padding-right: 50px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  width: 33%;
+}
+
+.middle-column {
+  border-radius: 100%;
+  height: 100%;
+  border: 10px solid red;
+  padding: 20px;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.right-column {
+  padding-left: 80px;
+}
+
+.coming-img {
+  width: 140px;
+  margin-top: 10%;
+}
+.right-column h4 {
+  font-weight: bold;
+}
