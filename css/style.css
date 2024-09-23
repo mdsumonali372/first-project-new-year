@@ -58,7 +58,8 @@ img {
 
 .year-content h4,
 .coming-soon-left-column h4,
-.right-column h4 {
+.right-column h4,
+.sale-content h3 {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -83,9 +84,10 @@ img {
   padding: 100px 0;
 }
 .coming-soon-left-column p,
-.right-column p {
+.right-column p,
+.sale-content p {
   font-family: "Inter", sans-serif;
-  color: #866f6f;
+  color: #6a6770;
   font-size: 20px;
   padding-right: 50px;
 }
@@ -122,4 +124,81 @@ img {
 }
 .right-column h4 {
   font-weight: bold;
+}
+
+.sale-section {
+  padding: 100px 0;
+}
+
+.sale-content {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  margin-top: 10%;
+}
+
+.sale-left-column {
+  width: 796px;
+}
+
+.sale-left-column img {
+  width: 90%;
+}
+
+.sale-right-column {
+  position: relative;
+}
+
+.discount {
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+  border: 4px solid white;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  rotate: -34deg;
+  padding: 8px;
+  position: absolute;
+  top: 50%;
+  left: -25%;
+  transform: translate(25%, -50%);
+}
+
+.discount h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 72px;
+}
+.discount p {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+}
+
+.sale-container {
+  position: relative;
+}
+
+.red-box {
+  width: 100%;
+  height: 230px;
+  background-color: red;
+  border-radius: 2px;
+  position: absolute;
+  bottom: -74px;
+  left: 0;
+  z-index: -1;
+}
+
+.sale-content h3 {
+  color: black;
+}
+
+.sale-content h2 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
