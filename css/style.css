@@ -59,7 +59,8 @@ img {
 .year-content h4,
 .coming-soon-left-column h4,
 .right-column h4,
-.sale-content h3 {
+.sale-content h3,
+.portfolio-content h3 {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -68,10 +69,13 @@ img {
 }
 
 .year-content h3,
-.coming-soon-left-column h2 {
+.coming-soon-left-column h2,
+.portfolio-content h2,
+.newsletter-content h2 {
   font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .year-img {
@@ -85,7 +89,9 @@ img {
 }
 .coming-soon-left-column p,
 .right-column p,
-.sale-content p {
+.sale-content p,
+.portfolio-content p,
+.newsletter-content p {
   font-family: "Inter", sans-serif;
   color: #6a6770;
   font-size: 20px;
@@ -129,15 +135,12 @@ img {
 .sale-section {
   padding: 100px 0;
 }
-
 .sale-content {
   text-align: center;
 }
 
 .box {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 10%;
 }
 
@@ -145,18 +148,22 @@ img {
   width: 50%;
 }
 
-.sale-left-column img {
-  width: 100%;
-}
-
 .sale-right-column {
   width: 50%;
-  text-align: right;
   position: relative;
 }
 
+.sale-img {
+  text-align: right;
+}
 .sale-right-column img {
-  width: 70%;
+  width: 430px;
+}
+
+.sale-content h2 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .discount {
@@ -164,49 +171,96 @@ img {
   height: 220px;
   border-radius: 100%;
   border: 4px solid white;
-  background: red;
+  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   rotate: -34deg;
-  padding: 8px;
   position: absolute;
-  top: 50%;
-  left: 13%;
-  transform: translate(25%, -50%);
-}
-
-.discount h3 {
-  font-family: "Inter", sans-serif;
-  font-size: 72px;
-}
-.discount p {
-  font-family: "Inter", sans-serif;
-  font-size: 24px;
+  top: 36%;
+  left: 15%;
+  transform: translate(0, -50%);
+  color: white;
 }
 
 .sale-container {
   position: relative;
 }
-
 .red-box {
   width: 100%;
   height: 230px;
   background-color: red;
-  border-radius: 2px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
   position: absolute;
-  bottom: -140px;
+  bottom: -86px;
   left: 0;
   z-index: -1;
 }
 
-.sale-content h3 {
-  color: black;
+.discount h3 {
+  font-size: 72px;
+  font-family: "Inter", sans-serif;
 }
 
-.sale-content h2 {
-  font-size: 72px;
-  font-weight: bold;
+.discount p {
+  font-size: 24px;
+}
+
+.portfolio {
+  padding: 100px 0;
+}
+
+.portfolio-content {
   margin-bottom: 20px;
+}
+
+.portfolio-box {
+  display: flex;
+  gap: 20px;
+}
+.newsletter {
+  padding: 100px 0;
+}
+.news-letter-bg {
+  background-color: #fff2f2;
+  padding: 40px;
+  border-radius: 16px;
+}
+.newsletter-content {
+  text-align: center;
+}
+.icon i {
+  color: #fed200;
+  font-size: 50px;
+}
+
+.subscribe-form {
+  margin-top: 32px;
+  position: relative;
+}
+
+input.email {
+  width: 648px;
+  height: 72px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-size: 24px;
+  border-radius: 100px;
+}
+
+button.button {
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background: red;
+  height: 72px;
+  color: white;
+  width: 210px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  position: absolute;
+  right: 20%;
 }
