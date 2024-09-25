@@ -13,6 +13,10 @@ img {
   width: 100%;
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -263,4 +267,62 @@ button.button {
   border-bottom-right-radius: 100px;
   position: absolute;
   right: 20%;
+}
+
+footer {
+  padding: 100px 0;
+  background: black;
+  color: white;
+}
+
+.footer-first-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  font-size: 24px;
+  line-height: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-list li {
+  margin-bottom: 16px;
+}
+
+.footer-list a {
+  color: white;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+.footer-list i {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+/* hr.border-line {
+  margin-top: 24px;
+} */
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.social-media i {
+  font-size: 32px;
+  background-color: rgb(176, 201, 224);
+  border-radius: 100px;
+  padding: 8px;
+}
+
+.footer-bottom-column {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
 }
